@@ -42,9 +42,9 @@ This will scan all of the specified files, treating .pkl/.pickle as files
 containing pickled Python bytecode directly, and any other files like they
 are PyTorch model files (i.e. Zip archives with embedded .pkl files).
 
-If a directory is specified, it will be scanned for files with the .pt, .pth,
-.pkl or .pickle file extensions where the .pt and .pth file extensions will
-be treated as PyTorch model files.
+If a directory is specified, it will be scanned for files with the .ckpt,
+.pt, .pth, .pkl or .pickle file extensions where the .ckpt, .pt and .pth
+file extensions will be treated as PyTorch model files.
 
 Note that the pickled code embedded into PyTorch model files in general will
 have some embedded imports from the pytorch package itself. This will emit a

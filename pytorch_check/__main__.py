@@ -62,7 +62,7 @@ def main():
                 for file in files:
                     ext = file.split('.')[-1].lower()
                     # NOTE! Other file extensions may be used as well!
-                    if ext in ['pt', 'pth', 'pkl', 'pickle']:
+                    if ext in ['ckpt', 'pt', 'pth', 'pkl', 'pickle']:
                         process(os.path.join(root, file), options)
 
 if __name__ == '__main__':
