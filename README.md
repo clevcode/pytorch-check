@@ -43,7 +43,7 @@ containing pickled Python bytecode directly, and any other files like they
 are PyTorch model files (i.e. Zip archives with embedded .pkl files).
 
 If a directory is specified, it will be scanned for files with the .pt, .pth,
-.pkl or .pickle file extensions where there .pt and .pth file extensions will
+.pkl or .pickle file extensions where the .pt and .pth file extensions will
 be treated as PyTorch model files.
 
 Note that the pickled code embedded into PyTorch model files in general will
