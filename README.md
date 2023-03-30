@@ -28,9 +28,14 @@ code. Trojanizing PyTorch model files is trivial, including by using the
 fickling tool by TrailOfBits to inject code into one of the embedded .pkl
 or .debug_pkl files in a model.
 
-Install this package from this directory with:
+Install with:
 ```bash
-python3 -m pip install .
+python3 -m pip install --user pytorch-check
+```
+
+Or from this directory:
+```bash
+python3 -m pip install --user .
 ```
 
 Then use the command line tool like this:
