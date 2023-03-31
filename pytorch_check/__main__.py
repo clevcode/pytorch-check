@@ -55,7 +55,7 @@ def main():
             print(colorama.Fore.RED+f'{path} does not exist')
             success = False
         elif os.path.isfile(path):
-            process(path)
+            process(path, options)
         elif os.path.isdir(path):
             # For directories, just check .pt/.pth and .pkl/.pickle files
             for root, _, files in os.walk(path):
